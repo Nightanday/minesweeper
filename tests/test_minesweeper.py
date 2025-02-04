@@ -2,7 +2,7 @@
 
 import pytest
 
-import minesweeper
+from src import minesweeper
 
 
 def test_module_exists():
