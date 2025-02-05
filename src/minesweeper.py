@@ -66,7 +66,7 @@ class Minesweeper:
 
     def is_winner(self) -> bool:
         """Check if the game has been won."""
-        pass
+        return len(self.revealed) == self.rows * self.cols - self.num_mines
 
     def restart(self) -> None:
         """Restart the game with the same parameters."""
